@@ -1,4 +1,4 @@
-import React, { FC, useRef, useEffect } from 'react'
+import { FC } from 'react'
 import styles from './App.module.css'
 
 interface IProps {
