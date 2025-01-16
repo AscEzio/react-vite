@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "outDir": "dist",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "plugins": [
+      {
+        "name":"typescript-plugin-css-modules",
+        "options": {
+          "classnameTransform": "camelCaseOnly"
+        }
+      }
+    ]
+  },
+  "include": [
+    "src", "scripts/generateScopedName.ts",
+    // "./src/style.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "./index.ts",
+  ]
+}
