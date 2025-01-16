@@ -13,7 +13,6 @@
   "author": "Asc",
   "license": "ISC",
   "dependencies": {
-    "@types/react-dom": "^18.2.10",
     "classnames": "^2.5.1",
     "oh-router": "^0.4.0",
     "oh-router-react": "^0.0.11",
@@ -24,6 +23,8 @@
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
     "@types/node": "^22.10.1",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^18.2.10",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
     "@vitejs/plugin-react": "^4.1.0",
